@@ -16,6 +16,7 @@ namespace Systems.MobAIs
 
 		public float PriorityBalance = 25;
 		public int startMovingDistance = 2;
+		public int teleportDistance = 4;
 
 		/// <summary>
 		/// Make the mob start following a target
@@ -79,6 +80,10 @@ namespace Systems.MobAIs
 			{
 				if(!GameManager.Instance.onTuto)
 					Move(stepDirectionWorld);
+			}
+			if(distance >= teleportDistance)
+			{
+				transform.position = moveToRelative;
 			}
 		}
 	}
