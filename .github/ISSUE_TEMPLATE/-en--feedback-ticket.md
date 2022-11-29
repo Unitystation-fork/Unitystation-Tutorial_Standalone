@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 - **Operating system:** 
-- **Version of the tutorial:** 1.0.5 "standalone"
+- **Version of the tutorial:** 1.1.1 "standalone"
 - **Dialogue Languages:**
 - **New to Unitystation:** Yes / No
 - **New to SS13?** Yes / No
@@ -36,7 +36,7 @@ assignees: ''
   
   ---
 
-(example of a point to address) 
+<!-- (example of a point to address) 
 - Game engine
 - Length of the tutorial
 - Complexity
@@ -45,7 +45,7 @@ assignees: ''
 - Interface and menu
 - Handling and intuitiveness 
 - Free will
-- User friendly
+- User friendly -->
 
 ## About the rest of the game Unitystation
 ### What I liked :
