@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 - **Systeme d'exploitation:** 
-- **Version du tuto:** 1.0.5 "standalone"
+- **Version du tuto:** 1.1.1 "standalone"
 - **Langues des dialogues:**
 - **Nouveau sur Unitystation ?:** Oui / Non
 - **Nouveau sur SS13 ? :** Oui / Non
@@ -36,7 +36,7 @@ assignees: ''
   
 ---
 
-(exemple de point à aborder) 
+<!-- (exemple de point à aborder) 
 - Moteur du jeu
 - Durée du tutoriel
 - Complexité
@@ -45,7 +45,7 @@ assignees: ''
 - Interface et menu
 - Prise en main et Intuitivité 
 - Libre arbitre
-- User friendly
+- User friendly -->
 
 ## À propos du reste du jeu Unitystation
 ### Ce que j'ai apprécier :
