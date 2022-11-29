@@ -3,7 +3,7 @@ name: "[FR] Feedback ticket"
 about: Merci de votre retour construit et bienveillant !
 title: "[FEEDBACK][FR] <Date> <player>"
 labels: Feedback
-assignees: ''
+assignees: Fr-Dae
 
 ---
 
@@ -45,7 +45,8 @@ assignees: ''
 - Interface et menu
 - Prise en main et Intuitivité 
 - Libre arbitre
-- User friendly -->
+- User friendly
+-->
 
 ## À propos du reste du jeu Unitystation
 ### Ce que j'ai apprécier :
@@ -72,4 +73,3 @@ assignees: ''
   
   
 ## Autres commentaires:
-

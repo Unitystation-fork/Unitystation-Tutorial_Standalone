@@ -3,7 +3,7 @@ name: "[EN] Feedback ticket"
 about: Thank you for your constructive and kind feedback!
 title: "[FEEDBACK][EN] <Date> <player>"
 labels: Feedback
-assignees: ''
+assignees: Fr-Dae
 
 ---
 
