@@ -10,11 +10,10 @@ body:
       description: Indiquez votre système d'exploitation
     validations:
       required: true
-    options: 
+    options:
       - Windows 7
       - Windows 10
       - Linux
-      
   - type: dropdown
     attributes:
       label: Version du tutoriel
@@ -24,7 +23,6 @@ body:
         - 1.0.5
     validations:
       required: true
-      
   - type: checkboxes
     attributes:
       label: Nouveau sur Unitystation ?
@@ -33,7 +31,6 @@ body:
        required: true
       options:
         - label: Je suis nouveau sur UnityStation
-        
   - type: checkboxes
     attributes:
       label: Nouveau sur SS13 ?
@@ -42,7 +39,6 @@ body:
        required: true
       options:
         - label: Je suis nouveau sur SS13
-        
   - type: textarea
     attributes:
       label: A propos du tutoriel
@@ -63,7 +59,6 @@ body:
       render: markdown
     validations: 
       required: true
-      
   - type: textarea
     attributes:
       label: A propos du reste du jeu Unitystation
@@ -94,7 +89,6 @@ body:
       render: markdown
     validations: 
       required: false
-      
   - type: textarea
     attributes:
       label: Autres commentaires
