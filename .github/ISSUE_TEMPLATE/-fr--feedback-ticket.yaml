@@ -4,33 +4,45 @@ title: "[FEEDBACK][FR] <Date> <player>"
 labels: Feedback
 assignees: Fr-Dae
 body:
-  - type: textarea
-    attributes:
+  - type: dropdown
+    attributes: 
       label: Système d'exploitation
       description: Indiquez votre système d'exploitation
     validations:
       required: true
-  - type: textarea
+    options: 
+      - Windows 7
+      - Windows 10
+      - Linux
+      
+  - type: dropdown
     attributes:
       label: Version du tutoriel
       description: Indiquez la version du tutoriel avec laquelle vous jouez
-      placeholder: |
-        1.1.1 "standalone"
-      render: markdown
+      options: 
+        - 1.1.1
+        - 1.0.5
     validations:
       required: true
+      
   - type: checkboxes
     attributes:
       label: Nouveau sur Unitystation ?
       description: Êtes-vous un nouveau joueur d'UnityStation ?
+    validations:
+       required: true
       options:
         - label: Je suis nouveau sur UnityStation
+        
   - type: checkboxes
     attributes:
       label: Nouveau sur SS13 ?
       description: Avez-vous déjà joué à SS13 ?
+    validations:
+       required: true
       options:
         - label: Je suis nouveau sur SS13
+        
   - type: textarea
     attributes:
       label: A propos du tutoriel
@@ -51,6 +63,7 @@ body:
       render: markdown
     validations: 
       required: true
+      
   - type: textarea
     attributes:
       label: A propos du reste du jeu Unitystation
@@ -81,6 +94,7 @@ body:
       render: markdown
     validations: 
       required: false
+      
   - type: textarea
     attributes:
       label: Autres commentaires
