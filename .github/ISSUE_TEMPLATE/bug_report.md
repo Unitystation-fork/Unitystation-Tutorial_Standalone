@@ -2,7 +2,7 @@
 name: Bug report
 about: Report a bug to developers
 title: ''
-labels: 'Type: Bug'
+labels: ''
 assignees: ''
 
 ---
@@ -23,4 +23,4 @@ assignees: ''
 
 1. 
 2. 
-3. 
+3.
