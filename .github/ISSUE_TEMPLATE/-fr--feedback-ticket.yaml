@@ -8,12 +8,12 @@ body:
     attributes: 
       label: Système d'exploitation
       description: Indiquez votre système d'exploitation
+      options:
+        - Windows 7
+        - Windows 10
+        - Linux
     validations:
-      required: true
-    options:
-      - Windows 7
-      - Windows 10
-      - Linux
+      required: true         
   - type: dropdown
     attributes:
       label: Version du tutoriel
@@ -31,7 +31,6 @@ body:
         - label: Je suis nouveau sur UnityStation
     validations:
        required: true
-      
   - type: checkboxes
     attributes:
       label: Nouveau sur SS13 ?
