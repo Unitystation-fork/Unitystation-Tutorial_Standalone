@@ -1,5 +1,5 @@
 ---
-name: "[FR] Feedback ticket"
+name: "[FR] Feedback_ticket"
 about: Merci de votre retour construit et bienveillant !
 title: "[FEEDBACK][FR] <Date> <player>"
 labels: Feedback
