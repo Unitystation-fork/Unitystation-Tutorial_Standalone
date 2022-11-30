@@ -27,18 +27,19 @@ body:
     attributes:
       label: Nouveau sur Unitystation ?
       description: Êtes-vous un nouveau joueur d'UnityStation ?
-    validations:
-       required: true
       options:
         - label: Je suis nouveau sur UnityStation
+    validations:
+       required: true
+      
   - type: checkboxes
     attributes:
       label: Nouveau sur SS13 ?
       description: Avez-vous déjà joué à SS13 ?
+      options:
+        - label: Je suis nouveau sur SS13      
     validations:
        required: true
-      options:
-        - label: Je suis nouveau sur SS13
   - type: textarea
     attributes:
       label: A propos du tutoriel
