@@ -1,5 +1,5 @@
 name: "[FR] Feedback ticket"
-about: Merci de votre retour construit et bienveillant !
+description: Merci de votre retour construit et bienveillant !
 title: "[FEEDBACK][FR] <Date> <player>"
 labels: Feedback
 assignees: Fr-Dae
@@ -13,7 +13,7 @@ body:
   - type: textarea
     attributes:
       label: Version du tutoriel
-      descritpion: Indiquez la version du tutoriel avec laquelle vous jouez
+      description: Indiquez la version du tutoriel avec laquelle vous jouez
       placeholder: |
         1.1.1 "standalone"
       render: markdown
@@ -24,13 +24,13 @@ body:
       label: Nouveau sur Unitystation ?
       description: Êtes-vous un nouveau joueur d'UnityStation ?
       options:
-        label: Je suis nouveau sur UnityStation
+        - label: Je suis nouveau sur UnityStation
   - type: checkboxes
     attributes:
       label: Nouveau sur SS13 ?
       description: Avez-vous déjà joué à SS13 ?
       options:
-        label: Je suis nouveau sur SS13
+        - label: Je suis nouveau sur SS13
   - type: textarea
     attributes:
       label: A propos du tutoriel
