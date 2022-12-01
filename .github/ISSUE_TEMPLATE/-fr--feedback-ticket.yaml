@@ -1,22 +1,26 @@
 name: "[FR] Feedback ticket"
-about: Merci de votre retour construit et bienveillant !
+description: Merci de votre retour construit et bienveillant !
 title: "[FEEDBACK][FR] <Date> <player>"
 labels: Feedback
 assignees: Fr-Dae
 body:
-  - type: textarea
-    attributes:
+  - type: dropdown
+    attributes: 
       label: Système d'exploitation
       description: Indiquez votre système d'exploitation
+      options:
+        - Windows 7
+        - Windows 10
+        - Linux
     validations:
-      required: true
-  - type: textarea
+      required: true         
+  - type: dropdown
     attributes:
       label: Version du tutoriel
-      descritpion: Indiquez la version du tutoriel avec laquelle vous jouez
-      placeholder: |
-        1.1.1 "standalone"
-      render: markdown
+      description: Indiquez la version du tutoriel avec laquelle vous jouez
+      options: 
+        - 1.1.1
+        - 1.0.5
     validations:
       required: true
   - type: checkboxes
@@ -24,13 +28,17 @@ body:
       label: Nouveau sur Unitystation ?
       description: Êtes-vous un nouveau joueur d'UnityStation ?
       options:
-        label: Je suis nouveau sur UnityStation
+        - label: Je suis nouveau sur UnityStation
+    validations:
+       required: true
   - type: checkboxes
     attributes:
       label: Nouveau sur SS13 ?
-      description: Avez-vous déjà joué à SS13 ?
+      description: Avez-vous déjà joué à Space Station 13 ?
       options:
-        label: Je suis nouveau sur SS13
+        - label: Je suis nouveau sur SS13      
+    validations:
+       required: true
   - type: textarea
     attributes:
       label: A propos du tutoriel
