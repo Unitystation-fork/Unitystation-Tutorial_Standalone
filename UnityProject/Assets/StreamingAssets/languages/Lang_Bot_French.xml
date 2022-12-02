@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- <br>	= &lt;br&gt;
+- < 	= &lt;
+- > 	= &gt;
+- & 	= &#38;
+- ' 	= &#39;
+- " 	= &#34;
+<b> 	= &lt;b&gt;
+</b>	= &lt;/b&gt;
+-->
+<languages>
+    <French>
+        <string name = "SpawnMove">Bienvenue à bord ! <br>
+        Je serais votre<color=green><b>[Tutorial_Bot];</b></color>, votre robot de formation. <br>
+        Tout d'abord, déplacez-vous avec <b>ZQSD</b> vers la table.<br>
+        (NDTR: pensez à les définir dans le menu option)</string>
+
+        <string name = "Equip">Équipez les vêtements sur la table en les obtenant avec <b> clic gauche </b>, <br>
+         et en l'équipant avec <b>[E]</b> ou dans le l'emplacement adapté dans le menu [cintre]</string>
+         
+        <string name = "Id">Attention : sans la <b>carte d&#39;identification (ID)</b> vous ne pourrez pas ouvrir de porte. Prenez <b>toujours</b> votre ID avec vous !</string>
+        
+        <string name = "PdaInId">Pour prendre moins de place dans votre inventaire, vous pouvez insérer votre carte d'identité dans votre PDA, <br>
+        en sélectionnant <b>Identification_card</b> and clicking on <b>PDA</b> ! pensez ensuite a le remettre dans l'emplacement. <b>ID</b><br>
+        Vous pouvez également changer de main avec la touche <b>[X]</b> ou middleclic.</string>
+        
+        <string name = "Light">Il fait si sombre ici ! <br>
+		Je pourrais te perdre de vue, mais vous pouvez toujours interagir et surtout  <br>
+		<b>me tirer en faisant un clic droit sur moi</b> et choisir votre action. (ou Ctrl clic) <br>
+        Vous pouvez également basculer la lumière intégrée sur votre PDA, comme un phare dans un monde d'obscurité, mais uniquement sur 2m ... <br>
+        Moi, je n'en ai pas besoin, je suis un robot après tout...</string>
+        
+        <string name = "Mask">Mes capteurs détecte une quantité dangeureuse de CO² dans la pièce voisine à l'ouest. <br>
+        <b>Equipez le masque et l'oxygène </b> stockées dans une boite d'urgence dans le sac, et n'oubliez pas d' <b>allumez votre oxygène !</b>
+        (en bas a droite dans l'interface) Vous pouvez garder le sac à dos</string>
+
+        <string name = "NoAir">Attention, il y a un trou dans le sol dans la pièce suivante.<br>
+		Vous devez être prêt : <b>équiper la combinaison spatiale</b> pour vous protéger de l'environnement difficile, <br>
+		Je crois que vous autre, organique n’appréciez pas être exposé au vide de l'espace. <br>
+		<br>
+        <b>Objectif</b> :utiliser les objets dans cette pièce pour réparer le trou <br>
+		<b>- Équiper la combinaison protectrice.</b>, <br>	
+		<b>- Utiliser la tige sur l'espace vide</b>, <br>
+		<b>- Utiliser le carrelage sur l'échafaudage</b> pour construire une tuile de base <br>
+		<b>- Utiliser le dernier</b> pour finir le carrelage du sol !</string>
+
+        <string name = "Food">Félicitations pour l'accomplissement de votre première mission ! <br>
+        Vous avez mérité une récompense:  <br>
+		Vous pouvez ici vous reposer, manger et boire, il suffit d'activer les machines et voir ce qu'elles vous donnent ! <br>
+		<br>
+        Vous pouvez, même jeter boissons et emballages au sol, ne vous inquiétez pas, je nettoierais après votre départ.<br>
+        à partir de maintenant, vous pouvez soit vous dirigez vers le sud pour quitter la station, <br>
+        en vous souhaitant bonne chance pour votre prochaine affectaction, <br>
+        soit decouvrir le reste de la station. <br>
+		si vous avez un doute sur ce que vous voyez, vous pouvez faire un clic droit (examiner) ou un Shift clic, votre interface vous donnerais des details.</string>
+
+<!-- #Pull-drag room
+-->
+<!-- Ah ! Non désolé, le chemin est bloqué, cette station tombe en ruine. <br>
+Hissez vous sur la table, poussez ou tirez quelques caisses de matériel et frayez vous un passage a travers cette grille.<br>
+Une fois la caisse saisie [Ctrl Clic], vous pouvez la déplacer en reculant ou en cliquant sur une dalle.<br>
+-->
+        <string name = "FireArm">C'est le terrain d'entraînement aux armes à feu, vous pouvez vous entraîner à viser et à manier les armes ici.<br>
+        RN'oubliez pas de ne pas gaspiller vos munitions en situation réelle !"</string>
+
+        <string name = "Heal">Ceci est un medbay, où vous pouvez soigner vos blessures ici. <br>
+        Il devrait y avoir des soins médicaux à l'intérieur du kit !"</string>
+ 
+        <string name = "Farm">Regarde cette pièce ! Ici tu peux cultiver des aliments, qui sont essentiels à la survie ! pour vous autre qui devez manger.<br>
+        Prenez un sac de graine du <b>Mega Seed Servitor</b>, le planter dans le <b>Hydroponics Tray</b> et attendez qu'il pousse ! <br>
+        Vous pouvez ajouter de l'eau <b>bucket</b> pour ajouter ou retirer de l'eau, le <b>Spade</b> pour creuser <br>
+		et déplacer la terre, et le <b>Cultivator</b> pour enlever les mauvaises herbes.<br>
+		<br>
+        Lorsque la plante a poussé,<br> 
+        vous pouvez les prendre et non seulement les manger,<br>
+        mais vous pouvez aussi en mettre une dans le... <b>Seed Extractor</b> pour extraire des informations de la graine !</string>
+<!-- #if detected seed bag
+-->
+<!--  Les stations hydroponiques ont plusieurs lumières indiquant leur état, 
+Manque d'eau (bleu), 
+Présence de mauvaises herbes (rouge), 
+Niveau de nutriments bas (orange), 
+Prêt pour la récolte (vert)
+
+ Vous pouvez y mettre une graine ou un fruit directement. 
+ Attention, si vous ajoutez un fruit sur une plantation, vous le composterez.
+-->
+
+<!-- #Fire-exercice room
+-->
+<!-- Derrière cette double porte, vous trouverez un casier rouge. 
+-->
+
+        <string name = "Evac">Il semble que tu puisses quitter cet endroit ici.<br>
+        <b>Merci d'être venu, et bonne chance pour tes futures missions, Moi je retourne dans mon placard. Aurevoir !"</string>
+    </French>
+</languages>
