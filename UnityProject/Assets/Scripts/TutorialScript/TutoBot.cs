@@ -12,12 +12,20 @@ public class TutoBot : MonoBehaviour
         ///Repeat message when tutorial bot are clicked
         if(CommonInput.GetMouseButtonDown(0))
         {
-            if((MouseUtils.MouseToWorldPos().x > (this.transform.position.x - .5) && MouseUtils.MouseToWorldPos().x < (this.transform.position.x + .5)
-            && MouseUtils.MouseToWorldPos().y > (this.transform.position.y - .5) && MouseUtils.MouseToWorldPos().y < (this.transform.position.y + .5))
-            )
+            if(CommonInput.GetKey(KeyCode.LeftControl) == false || CommonInput.GetKey(KeyCode.RightControl) == false)
             {
-                tuto.Message(Tutorial.botGO);
+                if((MouseUtils.MouseToWorldPos().x > (this.transform.position.x - .5) && MouseUtils.MouseToWorldPos().x < (this.transform.position.x + .5)
+                && MouseUtils.MouseToWorldPos().y > (this.transform.position.y - .5) && MouseUtils.MouseToWorldPos().y < (this.transform.position.y + .5))
+                )
+                {
+                    tuto.Message(Tutorial.botGO);
+                }
             }
-        }  
+        }
+        
+        if(CommonInput.GetMouseButtonDown(0) && CommonInput.GetKey(KeyCode.LeftControl) || CommonInput.GetMouseButtonDown(0) && CommonInput.GetKey(KeyCode.RightControl))
+        {
+            PlayerList.Instance.InGamePlayers[0].GameObject.GetComponent<UniversalObjectPhysics>().PullSet(this.GetComponent<UniversalObjectPhysics>(), true);
+        }
     }
 }
