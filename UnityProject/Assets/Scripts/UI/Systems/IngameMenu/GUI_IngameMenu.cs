@@ -198,10 +198,15 @@ namespace UI
 		public void LogoutConfirmYesButton()
 		{
 			_ = SoundManager.Play(CommonSounds.Instance.Click01);
+			if(GameManager.Instance.onTuto == true)
+			{
+				Tutorial.NetworkTabsGO.SetActive(true);
+            	Tutorial.AdminUIGO.SetActive(true);
+				GameManager.Instance.onTuto = false;
+			}
 			EventManager.Broadcast(Event.RoundEnded);
-			HideAllMenus();
-			GameManager.Instance.onTuto = false;
 			GameManager.Instance.DisconnectExpected = true;
+			HideAllMenus();
 			StopNetworking();
 			SceneManager.LoadScene("Lobby");
 		}
