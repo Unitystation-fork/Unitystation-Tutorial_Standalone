@@ -13,12 +13,12 @@ public class Lang_Bot
     {
         SetLanguage(path, language);
     }
-
+    
     public void SetLanguage(string path, string language)
     {
         var xml = new XmlDocument();
         xml.Load(path);
-
+     
         strings = new Hashtable();
         XmlElement element = xml.DocumentElement[language];
         if (element != null)
