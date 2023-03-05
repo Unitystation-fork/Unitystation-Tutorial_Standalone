@@ -90,7 +90,7 @@ public partial class SubSceneManager
 		//Reset map selector
 		AdminForcedMainStation = "Random";
 
-		if(GameManager.Instance.onTuto == false)
+		if(!GameManager.Instance.onTuto)
 		{
 			loadTimer.IncrementLoadBar($"Loading {serverChosenMainStation}");
 			///load main station
