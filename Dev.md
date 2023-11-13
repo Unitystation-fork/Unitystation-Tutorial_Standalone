@@ -56,7 +56,7 @@ que l'utilisateur unitystation pourra a loisir activé ou non
 
 ### Installation
 
-- Unity Hub [Hub](https://unity3d.com/get-unity/download] en version  2021.3.12f1 LTS
+- Unity Hub [Hub](https://unity3d.com/get-unity/download] en version  2021.3.19f1 LTS
 
 - Cloner unitystation-dev_2022_08_24 (Branche:Tutorial) [ForkMe](https://github.com/Unitystation-fork/unitystation-dev_2022_08_24)
  
