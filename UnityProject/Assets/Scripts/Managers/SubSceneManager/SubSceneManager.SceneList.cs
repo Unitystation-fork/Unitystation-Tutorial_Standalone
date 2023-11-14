@@ -100,7 +100,7 @@ public partial class SubSceneManager
 		{
 			loadTimer.IncrementLoadBar($"Loading Tutorial");
 			///load tutorial
-			yield return StartCoroutine(LoadSubScene("Painstation", loadTimer));
+			yield return StartCoroutine(LoadSubScene("Tutorial-Base", loadTimer));
 		}
 
 		loadedScenesList.Add(new SceneInfo
