@@ -31110,7 +31110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MatrixSync: {fileID: 0}
-  matrix: {fileID: 0}
+  matrix: {fileID: 2850638484409152582}
 --- !u!114 &2850638484952053269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42007,7 +42007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MatrixSync: {fileID: 0}
-  matrix: {fileID: 0}
+  matrix: {fileID: 2850638484627766462}
 --- !u!1001 &8373011167809835532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42094,6 +42094,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SubSystemManagers(Place in every map scene)
+      objectReference: {fileID: 0}
+    - target: {fileID: 910388109404497251, guid: 130e53c8b66d4ab49bb6a28cd6750751,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5726990200273560066, guid: 130e53c8b66d4ab49bb6a28cd6750751,
         type: 3}

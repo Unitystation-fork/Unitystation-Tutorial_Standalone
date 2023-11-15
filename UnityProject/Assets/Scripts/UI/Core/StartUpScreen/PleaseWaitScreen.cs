@@ -6,6 +6,7 @@ public class PleaseWaitScreen : MonoBehaviour
 {
 	[SerializeField] private bool isStartScreen = false;
 	[SerializeField] private LoadingScreen loadingScreen = null;
+	[SerializeField] string _SceneName;
 
 	private void OnEnable()
 	{
@@ -20,7 +21,7 @@ public class PleaseWaitScreen : MonoBehaviour
 		loadingScreen.SetLoadBar(0f);
 		yield return WaitFor.EndOfFrame;
 
-		AsyncOperation AO = SceneManager.LoadSceneAsync(1);
+		AsyncOperation AO = SceneManager.LoadSceneAsync(_SceneName);
 		AO.allowSceneActivation = false;
 		while(AO.progress < 0.9f)
 		{

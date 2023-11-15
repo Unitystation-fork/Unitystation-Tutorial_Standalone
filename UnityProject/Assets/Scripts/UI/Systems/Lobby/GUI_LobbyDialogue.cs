@@ -297,6 +297,14 @@ namespace Lobby
 			LobbyManager.Instance.accountLogin.TryLogin(LoginSuccess, LoginError);
 		}
 
+		public void OffLine()
+		{
+			accountLoginPanel.SetActive(false);
+			mainPanel.SetActive(true);
+			Logger.SetLogLevel(Category.GameMode, LogLevel.Off);
+
+		}
+
 		public void ShowLoggingInStatus(string status)
 		{
 			HideAllPanels();

@@ -154,6 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -315,6 +316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartScreen: 1
   loadingScreen: {fileID: 5636861590116722355}
+  _SceneName: Lobby
 --- !u!114 &2042038455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -372,7 +374,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 32
   m_TargetDisplay: 0
@@ -517,6 +519,11 @@ PrefabInstance:
     - target: {fileID: 5636861590388975219, guid: b3717120683d7c343ab4b93e4382e68b,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5636861590648519123, guid: b3717120683d7c343ab4b93e4382e68b,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
