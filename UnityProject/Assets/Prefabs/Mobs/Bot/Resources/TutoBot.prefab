@@ -90,8 +90,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activated: 0
   TickDelay: 1
-  status: 0
-  fleeTarget: {fileID: 0}
+  status: 2
+  fleeTarget: {fileID: 4102488425209486, guid: c4494414d24d2f2468e74daa79468631, type: 3}
 --- !u!61 &3896248893392498063
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -298,6 +298,7 @@ MonoBehaviour:
   InitialLocationSynchronised: 1
   tileMoveSpeed: 15
   isNotPushable: 0
+  HasOwnGravity: 0
   airTime: 0
   slideTime: 0
   SetIgnoreSticky: 0
@@ -426,7 +427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c7419c8c4d5f9c4b931b3f00465d323, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tuto: {fileID: 0}
+  tuto: {fileID: 4029935053017320765, guid: fa2c38c2ff89e42608306c454d9be58f, type: 3}
 --- !u!114 &2596346248451968090
 MonoBehaviour:
   m_ObjectHideFlags: 0
