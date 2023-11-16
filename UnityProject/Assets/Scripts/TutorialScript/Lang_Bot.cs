@@ -5,7 +5,7 @@ using System.Xml;
 using UnityEngine;
 
 
-public class Lang_Bot
+public class Lang_Bot : ManagedBehaviour
 {
     private Hashtable strings;
 
