@@ -37,7 +37,7 @@ NOUS, qui travaillons sur un niveau tutoriel , un mode solo (dans un jeu multi) 
 
 **à l'origine** le projet est concu pour n'etre qu'une brique de lego qu'il faut plug sur unitystation pour fonctionner.
 sauf que en version  1.0.5 (le build dispo dans le readme) on as pas le temps, donc on a pris la version de aout, ont l'a bourré tous notre contenue dedans, mis deux bout de sctoch, et sa à fait un standalone "tutoriel"
-mais un-maintenancable car trop de truc cassé ou manquant (genre la documenation que j'ai du reecrire)
+mais un-maintenancable car trop de truc cassé ou manquant (genre la documenation que j'ai due reecrire)
 
 actuellement, les devs de mon equipe n'arrive pas à faire quelque chose de viable avec "submodule" qui est la technologie pour empacté le tous 
 donc en attendant, on a repris la méthode de la  1.0.5, on a fait un fork basé sur une ancienne version relativement fonctionnel
