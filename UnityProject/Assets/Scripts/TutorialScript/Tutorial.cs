@@ -34,8 +34,8 @@ public class Tutorial : MonoBehaviour
     private void Start()
     {
         //load languages file
-        //langBot = new Lang_Bot(Path.Combine(Application.persistentDataPath, "languages/Lang_Bot_" + GameManager.Instance.language+".xml"), GameManager.Instance.language);
-        langBot = new Lang_Bot(Path.Combine(Application.persistentDataPath, "languages/Lang_Bot_" + GameManager.Instance.language), GameManager.Instance.language);
+        langBot = new Lang_Bot(Path.Combine(Application.persistentDataPath, "languages/Lang_Bot_" + GameManager.Instance.language + ".xml.xml"), GameManager.Instance.language);
+        //langBot = new Lang_Bot(Path.Combine(Application.persistentDataPath, "languages/Lang_Bot_" + GameManager.Instance.language + ".xml"), GameManager.Instance.language);
         //UI.ControlTabs.Instance.gameObject.SetActive(false);
     }
 
