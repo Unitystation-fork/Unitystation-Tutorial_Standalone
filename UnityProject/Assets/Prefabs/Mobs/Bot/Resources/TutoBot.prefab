@@ -410,7 +410,7 @@ MonoBehaviour:
   AllowDead: 0
   AllowUnconscious: 0
   Priority: 0
-  mobName: 
+  mobName: Tuto
   registerObject: {fileID: 0}
   minTimeBetweenRandomActions: 10
   maxTimeBetweenRandomActions: 30
