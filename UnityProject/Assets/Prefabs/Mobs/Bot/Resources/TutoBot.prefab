@@ -390,7 +390,7 @@ MonoBehaviour:
   Priority: 0
   PriorityBalance: 0
   CB_REAGENT: {fileID: 11400000, guid: e165b9d67b5163a9ea82a4c4fed31f7d, type: 2}
-  target: 5
+  target: 4
   actionPerformTime: 0
   hasFoodPrefereces: 0
   foodPreferences: []
