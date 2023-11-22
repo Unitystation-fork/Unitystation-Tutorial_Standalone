@@ -52,6 +52,7 @@ public class Tutorial : MonoBehaviour
             {
                 case Phase.PdaInId :
                     SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.BreakStone, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
+
                 break;
                 case Phase.Light :
                     SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.ElectricShock, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
