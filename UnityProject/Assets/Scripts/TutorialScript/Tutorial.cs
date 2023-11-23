@@ -7,7 +7,8 @@ using Messages.Server.SoundMessages;
 
 public class Tutorial : MonoBehaviour
 {
-    public static GameObject botGO;
+    [SerializeField] CommonSounds _commonSound;
+	public static GameObject botGO;
     public bool deleteGO;
     public enum Phase
     {
@@ -52,36 +53,45 @@ public class Tutorial : MonoBehaviour
 
             {
                 case Phase.PdaInId:
-                    SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.BreakStone, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
+                    //SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.BreakStone, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
+                    SoundManager.PlayNetworkedAtPos(_commonSound.BreakStone, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
                     bot.SetTrigger("DIALOG");
                     break;
                 case Phase.Light:
-                    SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.ElectricShock, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
+                    //SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.ElectricShock, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
+                    SoundManager.PlayNetworkedAtPos(_commonSound.ElectricShock, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
                     bot.SetTrigger("DIALOG");
                     break;
                 case Phase.NoAir:
-                    SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.ExplosionDistant1, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
+                    //SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.ExplosionDistant1, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
+                    SoundManager.PlayNetworkedAtPos(_commonSound.ExplosionDistant1, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
                     bot.SetTrigger("DIALOG");
                     break;
                 case Phase.Evac:
-                    SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.ExplosionCreak1, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
+                    //SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.ExplosionCreak1, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
+                    SoundManager.PlayNetworkedAtPos(_commonSound.ExplosionCreak1, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
                     bot.SetTrigger("DIALOG");
                     break;
                 case Phase.Food:
-					SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.EatFood, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
+					//SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.EatFood, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
+					SoundManager.PlayNetworkedAtPos(_commonSound.EatFood, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
 					bot.SetTrigger("DIALOG");
 					break;
                 case Phase.Heal:
-					SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.EatFood, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
+					//SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.EatFood, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
+					SoundManager.PlayNetworkedAtPos(_commonSound.EatFood, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
 					bot.SetTrigger("DIALOG");
 					break;
                 case Phase.Id:
+					SoundManager.PlayNetworkedAtPos(_commonSound.BreakStone, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
 					bot.SetTrigger("DIALOG");
 					break;
                 case Phase.Leave:
+					SoundManager.PlayNetworkedAtPos(_commonSound.ExplosionCreak1, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
 					bot.SetTrigger("DIALOG");
 					break;
                 case Phase.Mask:
+					SoundManager.PlayNetworkedAtPos(_commonSound.GlassKnock, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
 					bot.SetTrigger("DIALOG");
 					break;
                 case Phase.FireArm:
