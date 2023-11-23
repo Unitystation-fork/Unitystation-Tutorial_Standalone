@@ -7,7 +7,6 @@ using Messages.Server.SoundMessages;
 
 public class Tutorial : MonoBehaviour
 {
-
     public static GameObject botGO;
     public bool deleteGO;
     public enum Phase
