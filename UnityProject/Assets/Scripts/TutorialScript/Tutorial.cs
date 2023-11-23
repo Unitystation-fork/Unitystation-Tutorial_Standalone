@@ -41,30 +41,59 @@ public class Tutorial : MonoBehaviour
     ///Send message to chat depending on the phase
     public void Message(GameObject GO)
     {
-        if(tutoPhase != Phase.Leave)
+        if (tutoPhase != Phase.Leave)
         {
             string message = Tutorial.langBot.GetString(tutoPhase.ToString());
             Chat.AddLocalMsgToChat(message, GO);
             var bot = botGO.GetComponentInChildren<Animator>();
-            bot.SetTrigger("DIALOG");
-            
-            AudioSourceParameters audioSourceParameters = new AudioSourceParameters(pitch: UnityEngine.Random.Range(0.8f, 1.2f));
-            switch(tutoPhase)
-            {
-                case Phase.PdaInId :
-                    SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.BreakStone, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
 
-                break;
-                case Phase.Light :
+            AudioSourceParameters audioSourceParameters = new AudioSourceParameters(pitch: UnityEngine.Random.Range(0.8f, 1.2f));
+            switch (tutoPhase)
+
+            {
+                case Phase.PdaInId:
+                    SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.BreakStone, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
+                    bot.SetTrigger("DIALOG");
+                    break;
+                case Phase.Light:
                     SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.ElectricShock, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
-                break;
-                case Phase.NoAir :
+                    bot.SetTrigger("DIALOG");
+                    break;
+                case Phase.NoAir:
                     SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.ExplosionDistant1, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
-                break;
-                case Phase.Evac :
+                    bot.SetTrigger("DIALOG");
+                    break;
+                case Phase.Evac:
                     SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.ExplosionCreak1, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
-                break;
-            }
+                    bot.SetTrigger("DIALOG");
+                    break;
+                case Phase.Food:
+					SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.EatFood, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
+					bot.SetTrigger("DIALOG");
+					break;
+                case Phase.Heal:
+					SoundManager.PlayNetworkedAtPos(CommonSounds.Instance.EatFood, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
+					bot.SetTrigger("DIALOG");
+					break;
+                case Phase.Id:
+					bot.SetTrigger("DIALOG");
+					break;
+                case Phase.Leave:
+					bot.SetTrigger("DIALOG");
+					break;
+                case Phase.Mask:
+					bot.SetTrigger("DIALOG");
+					break;
+                case Phase.FireArm:
+					bot.SetTrigger("DIALOG");
+					break;
+				case Phase.Farm:
+					bot.SetTrigger("DIALOG");
+					break;
+				case Phase.SpawnMove:
+					bot.SetTrigger("DIALOG");
+					break;
+			}
         }
         else
         {
