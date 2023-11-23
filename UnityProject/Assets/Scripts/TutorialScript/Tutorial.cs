@@ -7,7 +7,6 @@ using Messages.Server.SoundMessages;
 
 public class Tutorial : MonoBehaviour
 {
-    public animator _animation;
     public static GameObject botGO;
     public bool deleteGO;
     public enum Phase
@@ -46,7 +45,8 @@ public class Tutorial : MonoBehaviour
         {
             string message = Tutorial.langBot.GetString(tutoPhase.ToString());
             Chat.AddLocalMsgToChat(message, GO);
-            _animation.SetTrigger("DIALOG");
+            var bot = botGO.GetComponentInChildren<Animator>();
+            bot.SetTrigger("DIALOG");
             
             AudioSourceParameters audioSourceParameters = new AudioSourceParameters(pitch: UnityEngine.Random.Range(0.8f, 1.2f));
             switch(tutoPhase)
