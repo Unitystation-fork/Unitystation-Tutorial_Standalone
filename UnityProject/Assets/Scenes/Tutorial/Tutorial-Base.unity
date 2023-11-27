@@ -40573,6 +40573,12 @@ PrefabInstance:
       propertyPath: deleteGO
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4029935053017320765, guid: fa2c38c2ff89e42608306c454d9be58f,
+        type: 3}
+      propertyPath: _commonSound
+      value: 
+      objectReference: {fileID: 11400000, guid: 6d520c263fd9c4094b96ab467ebfb066,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa2c38c2ff89e42608306c454d9be58f, type: 3}
 --- !u!1001 &8373011167809835532
