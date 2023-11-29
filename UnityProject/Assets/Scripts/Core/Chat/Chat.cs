@@ -695,6 +695,7 @@ public partial class Chat : MonoBehaviour
 
 		if(doSpeechBubble == false) return;
 
+		//ShowChatBubbleMessage.SendToNearby(originator, message, language);
 		ShowChatBubbleMessage.SendToNearby(originator, message, language);
 	}
 

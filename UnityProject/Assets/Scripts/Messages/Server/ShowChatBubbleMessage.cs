@@ -54,7 +54,8 @@ namespace Messages.Server
 			foreach (var player in visiblePlayers)
 			{
 				//See if we need to scramble the message
-				var copiedString = LanguageManager.Scramble(language, player.Script, string.Copy(message));
+				//var copiedString = LanguageManager.Scramble(language, player.Script, string.Copy(message));
+				var copiedString = LanguageManager.Scramble(language, player.Script, string.Copy("<Bzzt>"));
 
 				SendTo(player.Connection, followTransform, copiedString);
 			}
