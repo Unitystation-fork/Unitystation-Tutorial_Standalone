@@ -36,7 +36,8 @@ namespace Messages.Server
 				if(target == null) return;
 			}
 
-			var message = msg.Message;
+			//var message = msg.Message;
+			var message = "<Bzzt>"; // Interception Message transformation => <Bzzt>
 
 			if(msg.AllowTags == false)
 			{
@@ -55,7 +56,7 @@ namespace Messages.Server
 			{
 				//See if we need to scramble the message
 				//var copiedString = LanguageManager.Scramble(language, player.Script, string.Copy(message));
-				var copiedString = LanguageManager.Scramble(language, player.Script, string.Copy("<Bzzt>"));
+				var copiedString = LanguageManager.Scramble(language, player.Script, string.Copy(message));
 
 				SendTo(player.Connection, followTransform, copiedString);
 			}
