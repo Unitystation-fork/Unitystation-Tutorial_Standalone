@@ -233,7 +233,10 @@ public class ChatBubble : MonoBehaviour
 
 		if (msg.instantText)
 		{
-			SetBubbleParameters(msg.msg, msg.modifier);
+			//SetBubbleParameters(msg.msg, msg.modifier);
+			var msgText = msg.msg;
+			msgText = "Bzzt";
+			SetBubbleParameters(msgText, msg.modifier);
 		}
 		else
 		{
@@ -281,6 +284,8 @@ public class ChatBubble : MonoBehaviour
 	/// </summary>
 	private void ShowCharacter(BubbleMsg msg)
 	{
+		var msgText = msg.msg;
+		msgText = "Bzzt";
 		while (msg.elapsedTime > 0f)
 		{
 			if (msg.characterIndex > msg.msg.Length - 1) break;
@@ -297,7 +302,7 @@ public class ChatBubble : MonoBehaviour
 				msg.elapsedTime -= msg.characterPopInSpeed * 3f;
 			}
 
-			var text = msg.msg.Substring(0, msg.characterIndex + 1);
+			var text = msgText.Substring(0, msg.characterIndex + 1);
 			var newText = new StringBuilder();
 
 			//God Save Our Eyes
@@ -415,7 +420,8 @@ public class ChatBubble : MonoBehaviour
 
 	    // Apply values
 	    UpdateChatBubbleSize();
-	    bubbleText.text = msg;
+	    //bubbleText.text = msg;
+	    bubbleText.text = "Bzzt";
 	    chatBubble.SetActive(true);
     }
 

@@ -37,7 +37,7 @@ namespace Messages.Server
 			}
 
 			//var message = msg.Message;
-			var message = "<Bzzt>"; // Interception Message transformation => <Bzzt>
+			var message = "Bzzt"; // Interception Message transformation => <Bzzt>
 
 			if(msg.AllowTags == false)
 			{
