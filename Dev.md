@@ -63,8 +63,12 @@ Dans ce tutoriel qui fonctionne seulement si nous sommes connecté, la 1ère par
 le text (Dans le Tchat et dans une bulle).
 Il faut maintenant, rêgler les petits bugs du niveau et finir l'état.
 
-Il faut savoir qu'un script ne fait pas que son job sans être lier à plusieurs autres scripts.
+Il faut savoir qu'un script ne fait pas que son job, chaque données  passent dans 3 à 4 scripts pour la même finalité.
 Ne pas avoir peur de se perdre dans les méandres de toutes ces lignes.
+N'oubliez pas que chaque actions passent toutes par les scripts serveurs.
+
+La scene Tutorial utilise les Scenes Online et SpaceScene.
+Donc si vous avez besoin de faire une modif ou d'appeler un certian script, pensez a ouvrir ces scenes et de verifier les préfabs.
 ```
 
 

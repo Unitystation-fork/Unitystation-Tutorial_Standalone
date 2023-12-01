@@ -1383,6 +1383,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LightTubeFixture (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 8010465399013802086, guid: fde32c02abddc814f9366ff1fb21f234,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8016220542479582908, guid: fde32c02abddc814f9366ff1fb21f234,
         type: 3}
       propertyPath: m_RootOrder
@@ -1391,12 +1396,12 @@ PrefabInstance:
     - target: {fileID: 8016220542479582908, guid: fde32c02abddc814f9366ff1fb21f234,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 65
+      value: 64.995
       objectReference: {fileID: 0}
     - target: {fileID: 8016220542479582908, guid: fde32c02abddc814f9366ff1fb21f234,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 91
+      value: 91.005
       objectReference: {fileID: 0}
     - target: {fileID: 8016220542479582908, guid: fde32c02abddc814f9366ff1fb21f234,
         type: 3}
