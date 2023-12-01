@@ -33,22 +33,38 @@ Géré par l'équipe de developpement de Unionrolistes Liste des contributeur [C
 
  ```properties
 Actuellement tu as Unitystation, qui fait sa petite vie, update/bug/update/bug etc.
-NOUS, qui travaillons sur un niveau tutoriel , un mode solo (dans un jeu multi) avec instruction et dialogues.
+NOUS, qui travaillons sur un niveau tutoriel , un mode solo (dans un jeu multi) avec instructions et des dialogues.
 
-**à l'origine** le projet est concu pour n'etre qu'une brique de lego qu'il faut plug sur unitystation pour fonctionner.
-sauf que en version  1.0.5 (le build dispo dans le readme) on as pas le temps, donc on a pris la version de aout, ont l'a bourré tous notre contenue dedans, mis deux bout de sctoch, et sa à fait un standalone "tutoriel"
-mais un-maintenancable car trop de truc cassé ou manquant (genre la documenation que j'ai due reecrire)
+**à l'origine** le projet est concu pour n'être qu'un jeu de briques comme LEGO, qu'il faut implémenter sur unitystation pour fonctionner.
+SAUF QUE, depuis la version  1.0.5 (build dispo dans le README) nous n'avons pas le temps.
+Donc, nous utilisons la version du mois d''aout 2022.
+On l'a bourré de tout notre contenue, mis deux bouts de Scotch, et celà à fait un standalone "tutoriel" non maintenable.
 
-actuellement, les devs de mon equipe n'arrive pas à faire quelque chose de viable avec "submodule" qui est la technologie pour empacté le tous 
-donc en attendant, on a repris la méthode de la  1.0.5, on a fait un fork basé sur une ancienne version relativement fonctionnel
-qu'on modifie allégrement pour faire tourné le niveau tutoriel. 
-**edit** et je viens de me rendre compte que c'est pas du tous une version standalone car je vois dans l'historique, des commit de l'equipe principale, d'y a deux jour.
+"Trop de truc cassé ou manquant (genre la documenation que j'ai due reecrire)"
 
-ils travail sur la listes des bug (genre le bot-guide qui reste coincé dans un mur, ou des dialogue manquant) 
+Actuellement, les devs n'arrivent pas à faire quelque chose de viable avec "submodule" qui est la technologie popermettant d'empacter le projet final.
+En attendant, nous utilisons la version 1.0.5, nous avons Forké une base à partir d'une ancienne version relativement stable et fonctionnelle,
+que l'on modifie allégrement, pour faire tourné le tutoriel.
 
+**edit** Je viens de me rendre compte que ce n'est pas du tous une version standalone.
+Je vois dans l'historique, des commit de l'équipe principale, il y a 2 jours.
+Ils travaillent sur la listes des bug (Ex: le bot-guide qui reste coincé dans un mur, ou des dialogue manquant) 
 PUIS feront l'update pour faire un standaone avec la version actuel (decembre22) (**oudated**)
-et SI on y arrive on empacte seulement les element nouveau du tutoriel, pour en faire un submodule
-que l'utilisateur unitystation pourra a loisir activé ou non
+et SI on y arrive, on empacte seulement les element nouveau du tutoriel, pour en faire un submodule
+que l'utilisateur unitystation pourra à loisir activé ou non.
+
+**UPDATE**
+1/12/2023
+Passage en version 1.0.9 en Novembre dernier.
+Pour rappel, le StandAlone est une version Online avec un bouton OffLine (qui ne fonctionne pas vraiment pour le moment).
+Le menu permet de se connecter ou de s'inscrire au serveur et ne lance que le Tutoriel.
+
+Dans ce tutoriel qui fonctionne seulement si nous sommes connecté, la 1ère parti est fonctionnelle et le TutoBot annonce
+le text (Dans le Tchat et dans une bulle).
+Il faut maintenant, rêgler les petits bugs du niveau et finir l'état.
+
+Il faut savoir qu'un script ne fait pas que son job sans être lier à plusieurs autres scripts.
+Ne pas avoir peur de se perdre dans les méandres de toutes ces lignes.
 ```
 
 

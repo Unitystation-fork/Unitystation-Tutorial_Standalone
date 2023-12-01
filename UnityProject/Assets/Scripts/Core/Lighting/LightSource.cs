@@ -76,7 +76,7 @@ namespace Objects.Lighting
 			lightSprite = mLightRendererObject.GetComponent<LightSprite>();
 			if (isWithoutSwitch == false)
 			{
-				switchState = InitialState == LightMountState.On;
+				switchState = InitialState == LightMountState.Broken;
 			}
 
 			ChangeCurrentState(InitialState);
