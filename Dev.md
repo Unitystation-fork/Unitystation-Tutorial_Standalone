@@ -124,7 +124,7 @@ Below is a resume to what I modify / added in development :
 
 -   Added script "Tutorial" : manage tutorial zone with trigger enter (exemple : trigger on player spawn that make tutorial bot appear)
     
--   Added script "TutoPlayer" : Make player Rigidbody2D body type on Dynamic instead of Kinematic ONLY WHEN ON TUTORIAL SCENE, if not thte script remove itself
+-   Added script "TutoPlayer" : Make player Rigidbody2D body type on Dynamic instead of Kinematic ONLY WHEN ON TUTORIAL SCENE, if not the script remove itself
     
 
 ----------
