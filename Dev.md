@@ -100,9 +100,10 @@ Vidéo:
 
 [https://youtu.be/krssJiDJLhY](https://youtu.be/krssJiDJLhY)
 
-Une salle où un objet bloque le passage, Il faut passé par dessus une table (non en verre) tirer une caisse, en poussé une autre, frapper un objet pour le brisé, jeter un objet
+Une salle où un objet bloque le passage, Il faut passé par dessus une table (non en verre) tirer une caisse,
+en poussé une autre, frapper un objet pour le brisé, jeter un objet.
 
-le joueur dois se blesser avec un eclat de verre pour utilisé le medkit.
+Le joueur dois se blesser avec un eclat de verre pour utilisé le medkit.
 
 une salle sans electricité pour un exercice incendie. marcher (pour évité de glissé)
 
