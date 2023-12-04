@@ -1357,6 +1357,23 @@ PrefabInstance:
       propertyPath: sceneId
       value: 3192970089
       objectReference: {fileID: 0}
+    - target: {fileID: 2012159806878520143, guid: fde32c02abddc814f9366ff1fb21f234,
+        type: 3}
+      propertyPath: initialStateSprites
+      value: 
+      objectReference: {fileID: 11400000, guid: 62c2265ee86cfaa4baf6c185b3b23781,
+        type: 2}
+    - target: {fileID: 2161202133596991296, guid: fde32c02abddc814f9366ff1fb21f234,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3276952608748939964, guid: fde32c02abddc814f9366ff1fb21f234,
+        type: 3}
+      propertyPath: PresentSpriteSet
+      value: 
+      objectReference: {fileID: 11400000, guid: 62c2265ee86cfaa4baf6c185b3b23781,
+        type: 2}
     - target: {fileID: 6807309527984598602, guid: fde32c02abddc814f9366ff1fb21f234,
         type: 3}
       propertyPath: RelatedAPC
@@ -1372,11 +1389,16 @@ PrefabInstance:
       propertyPath: InitialState
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 7194976834760766862, guid: fde32c02abddc814f9366ff1fb21f234,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7803294762233930865, guid: fde32c02abddc814f9366ff1fb21f234,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 244761d659f269a4793677b4e2651889,
+      objectReference: {fileID: 21300000, guid: 7066e64132eb101468336d98cc1ae030,
         type: 3}
     - target: {fileID: 8010465399013802086, guid: fde32c02abddc814f9366ff1fb21f234,
         type: 3}
@@ -6637,6 +6659,23 @@ PrefabInstance:
       propertyPath: sceneId
       value: 1473109113
       objectReference: {fileID: 0}
+    - target: {fileID: 2012159806878520143, guid: fde32c02abddc814f9366ff1fb21f234,
+        type: 3}
+      propertyPath: initialStateSprites
+      value: 
+      objectReference: {fileID: 11400000, guid: 62c2265ee86cfaa4baf6c185b3b23781,
+        type: 2}
+    - target: {fileID: 2012159806878520143, guid: fde32c02abddc814f9366ff1fb21f234,
+        type: 3}
+      propertyPath: wiresAddedStateSprites
+      value: 
+      objectReference: {fileID: 11400000, guid: e0c5e92beb9d0e94d91dd3f8f85ce47d,
+        type: 2}
+    - target: {fileID: 2161202133596991296, guid: fde32c02abddc814f9366ff1fb21f234,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2883810215281542680, guid: fde32c02abddc814f9366ff1fb21f234,
         type: 3}
       propertyPath: CurrentDirection
@@ -6646,6 +6685,17 @@ PrefabInstance:
         type: 3}
       propertyPath: InitialDirection
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3276952608748939964, guid: fde32c02abddc814f9366ff1fb21f234,
+        type: 3}
+      propertyPath: PresentSpriteSet
+      value: 
+      objectReference: {fileID: 11400000, guid: 62c2265ee86cfaa4baf6c185b3b23781,
+        type: 2}
+    - target: {fileID: 3276952608748939964, guid: fde32c02abddc814f9366ff1fb21f234,
+        type: 3}
+      propertyPath: randomInitialSprite
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3662677150203288956, guid: fde32c02abddc814f9366ff1fb21f234,
         type: 3}
@@ -6682,11 +6732,16 @@ PrefabInstance:
       propertyPath: InitialState
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 7194976834760766862, guid: fde32c02abddc814f9366ff1fb21f234,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7803294762233930865, guid: fde32c02abddc814f9366ff1fb21f234,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 244761d659f269a4793677b4e2651889,
+      objectReference: {fileID: 21300000, guid: 7066e64132eb101468336d98cc1ae030,
         type: 3}
     - target: {fileID: 8010465399013802086, guid: fde32c02abddc814f9366ff1fb21f234,
         type: 3}
