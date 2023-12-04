@@ -8,6 +8,7 @@ using Messages.Server.SoundMessages;
 public class Tutorial : MonoBehaviour
 {
     [SerializeField] CommonSounds _commonSound;
+    [SerializeField] 
 	public static GameObject botGO;
     public bool deleteGO;
     public enum Phase
@@ -85,10 +86,13 @@ public class Tutorial : MonoBehaviour
 					SoundManager.PlayNetworkedAtPos(_commonSound.GlassKnock, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
 					break;
                 case Phase.FireArm:
+					SoundManager.PlayNetworkedAtPos(_commonSound.GlassKnock, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
 					break;
 				case Phase.Farm:
+					SoundManager.PlayNetworkedAtPos(_commonSound.GlassKnock, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
 					break;
 				case Phase.SpawnMove:
+					SoundManager.PlayNetworkedAtPos(_commonSound.GlassKnock, PlayerList.Instance.InGamePlayers[0].GameObject.RegisterTile().WorldPosition, audioSourceParameters, sourceObj: gameObject);
 					break;
 			}
         }
