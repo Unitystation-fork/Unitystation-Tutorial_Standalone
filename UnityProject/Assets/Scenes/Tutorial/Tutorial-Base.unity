@@ -40528,6 +40528,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4029935051863495844, guid: fa2c38c2ff89e42608306c454d9be58f,
+        type: 3}
+      propertyPath: tutoBot
+      value: 
+      objectReference: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a,
+        type: 3}
+    - target: {fileID: 4029935052559433052, guid: fa2c38c2ff89e42608306c454d9be58f,
+        type: 3}
+      propertyPath: tutoBot
+      value: 
+      objectReference: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a,
+        type: 3}
+    - target: {fileID: 4029935052812360671, guid: fa2c38c2ff89e42608306c454d9be58f,
+        type: 3}
+      propertyPath: tutoBot
+      value: 
+      objectReference: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a,
+        type: 3}
+    - target: {fileID: 4029935052848034575, guid: fa2c38c2ff89e42608306c454d9be58f,
+        type: 3}
+      propertyPath: tutoBot
+      value: 
+      objectReference: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a,
+        type: 3}
+    - target: {fileID: 4029935052954996755, guid: fa2c38c2ff89e42608306c454d9be58f,
+        type: 3}
+      propertyPath: tutoBot
+      value: 
+      objectReference: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a,
+        type: 3}
     - target: {fileID: 4029935053017320762, guid: fa2c38c2ff89e42608306c454d9be58f,
         type: 3}
       propertyPath: m_Name
@@ -40599,6 +40629,42 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 6d520c263fd9c4094b96ab467ebfb066,
         type: 2}
+    - target: {fileID: 4029935053069671572, guid: fa2c38c2ff89e42608306c454d9be58f,
+        type: 3}
+      propertyPath: tutoBot
+      value: 
+      objectReference: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a,
+        type: 3}
+    - target: {fileID: 4029935053189942949, guid: fa2c38c2ff89e42608306c454d9be58f,
+        type: 3}
+      propertyPath: tutoBot
+      value: 
+      objectReference: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a,
+        type: 3}
+    - target: {fileID: 4029935053215432106, guid: fa2c38c2ff89e42608306c454d9be58f,
+        type: 3}
+      propertyPath: tutoBot
+      value: 
+      objectReference: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a,
+        type: 3}
+    - target: {fileID: 4029935053471215342, guid: fa2c38c2ff89e42608306c454d9be58f,
+        type: 3}
+      propertyPath: tutoBot
+      value: 
+      objectReference: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a,
+        type: 3}
+    - target: {fileID: 4029935053634200383, guid: fa2c38c2ff89e42608306c454d9be58f,
+        type: 3}
+      propertyPath: tutoBot
+      value: 
+      objectReference: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a,
+        type: 3}
+    - target: {fileID: 4029935053803488544, guid: fa2c38c2ff89e42608306c454d9be58f,
+        type: 3}
+      propertyPath: tutoBot
+      value: 
+      objectReference: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa2c38c2ff89e42608306c454d9be58f, type: 3}
 --- !u!1001 &8373011167809835532

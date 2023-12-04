@@ -71,9 +71,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3e194de628bebc4ab97300a5d3cab13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _commonSound: {fileID: 0}
   deleteGO: 0
   tutoPhase: 8
-  tutoBot: {fileID: 0}
+  tutoBot: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a, type: 3}
   spawnPoint: {fileID: 0}
   tutoParent: {fileID: 4029935053017320765}
 --- !u!1 &4029935051926540717
@@ -372,6 +373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3e194de628bebc4ab97300a5d3cab13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _commonSound: {fileID: 0}
   deleteGO: 1
   tutoPhase: 2
   tutoBot: {fileID: 0}
@@ -448,9 +450,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3e194de628bebc4ab97300a5d3cab13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _commonSound: {fileID: 0}
   deleteGO: 1
   tutoPhase: 5
-  tutoBot: {fileID: 0}
+  tutoBot: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a, type: 3}
   spawnPoint: {fileID: 0}
   tutoParent: {fileID: 4029935053017320765}
 --- !u!1 &4029935052725825646
@@ -556,9 +559,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3e194de628bebc4ab97300a5d3cab13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _commonSound: {fileID: 0}
   deleteGO: 0
   tutoPhase: 9
-  tutoBot: {fileID: 0}
+  tutoBot: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a, type: 3}
   spawnPoint: {fileID: 0}
   tutoParent: {fileID: 4029935053017320765}
 --- !u!1 &4029935052848034573
@@ -632,9 +636,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3e194de628bebc4ab97300a5d3cab13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _commonSound: {fileID: 0}
   deleteGO: 1
   tutoPhase: 3
-  tutoBot: {fileID: 0}
+  tutoBot: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a, type: 3}
   spawnPoint: {fileID: 0}
   tutoParent: {fileID: 4029935053017320765}
 --- !u!1 &4029935052954996753
@@ -708,9 +713,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3e194de628bebc4ab97300a5d3cab13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _commonSound: {fileID: 0}
   deleteGO: 1
   tutoPhase: 7
-  tutoBot: {fileID: 0}
+  tutoBot: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a, type: 3}
   spawnPoint: {fileID: 0}
   tutoParent: {fileID: 4029935053017320765}
 --- !u!1 &4029935052983329237
@@ -802,6 +808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5e84f8bdb5e9ee439d256d3f66c66f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _commonSound: {fileID: 11400000, guid: 6d520c263fd9c4094b96ab467ebfb066, type: 2}
   deleteGO: 0
   tutoPhase: 0
 --- !u!1 &4029935053031251274
@@ -939,9 +946,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3e194de628bebc4ab97300a5d3cab13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _commonSound: {fileID: 0}
   deleteGO: 1
   tutoPhase: 6
-  tutoBot: {fileID: 0}
+  tutoBot: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a, type: 3}
   spawnPoint: {fileID: 0}
   tutoParent: {fileID: 4029935053017320765}
 --- !u!1 &4029935053189942947
@@ -1015,9 +1023,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3e194de628bebc4ab97300a5d3cab13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _commonSound: {fileID: 0}
   deleteGO: 1
   tutoPhase: 4
-  tutoBot: {fileID: 0}
+  tutoBot: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a, type: 3}
   spawnPoint: {fileID: 0}
   tutoParent: {fileID: 4029935053017320765}
 --- !u!1 &4029935053215432104
@@ -1091,9 +1100,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3e194de628bebc4ab97300a5d3cab13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _commonSound: {fileID: 0}
   deleteGO: 1
   tutoPhase: 1
-  tutoBot: {fileID: 0}
+  tutoBot: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a, type: 3}
   spawnPoint: {fileID: 0}
   tutoParent: {fileID: 4029935053017320765}
 --- !u!1 &4029935053413797316
@@ -1199,9 +1209,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3e194de628bebc4ab97300a5d3cab13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _commonSound: {fileID: 0}
   deleteGO: 0
   tutoPhase: 12
-  tutoBot: {fileID: 0}
+  tutoBot: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a, type: 3}
   spawnPoint: {fileID: 0}
   tutoParent: {fileID: 4029935053017320765}
 --- !u!1 &4029935053614037920
@@ -1276,6 +1287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3e194de628bebc4ab97300a5d3cab13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _commonSound: {fileID: 0}
   deleteGO: 1
   tutoPhase: 0
   tutoBot: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a, type: 3}
@@ -1373,9 +1385,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3e194de628bebc4ab97300a5d3cab13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _commonSound: {fileID: 0}
   deleteGO: 0
   tutoPhase: 10
-  tutoBot: {fileID: 0}
+  tutoBot: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a, type: 3}
   spawnPoint: {fileID: 0}
   tutoParent: {fileID: 4029935053017320765}
 --- !u!1 &4029935053775504707
@@ -1481,9 +1494,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3e194de628bebc4ab97300a5d3cab13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _commonSound: {fileID: 0}
   deleteGO: 1
   tutoPhase: 11
-  tutoBot: {fileID: 0}
+  tutoBot: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a, type: 3}
   spawnPoint: {fileID: 0}
   tutoParent: {fileID: 4029935053017320765}
 --- !u!1 &4029935053848388493
