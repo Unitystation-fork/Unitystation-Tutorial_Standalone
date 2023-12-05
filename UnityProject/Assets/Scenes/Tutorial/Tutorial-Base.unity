@@ -11166,11 +11166,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2850638485302797631}
     m_Modifications:
+    - target: {fileID: 4387921172387687617, guid: d589c17f6fd91da4190edfdd2cb5aa53,
+        type: 3}
+      propertyPath: SmartGun
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387921172387687617, guid: d589c17f6fd91da4190edfdd2cb5aa53,
+        type: 3}
+      propertyPath: MagInternal
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387921172387687617, guid: d589c17f6fd91da4190edfdd2cb5aa53,
+        type: 3}
+      propertyPath: casingPrefabOverride
+      value: 
+      objectReference: {fileID: 1681465082}
     - target: {fileID: 6693620148964760645, guid: d589c17f6fd91da4190edfdd2cb5aa53,
         type: 3}
       propertyPath: sceneId
       value: 1785422734
       objectReference: {fileID: 0}
+    - target: {fileID: 6693678033923444367, guid: d589c17f6fd91da4190edfdd2cb5aa53,
+        type: 3}
+      propertyPath: ItemAttributesV2
+      value: 
+      objectReference: {fileID: 1491192900}
     - target: {fileID: 6693724063082233965, guid: d589c17f6fd91da4190edfdd2cb5aa53,
         type: 3}
       propertyPath: CurrentsortingGroup
@@ -11256,6 +11276,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnergyCarbine (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7904759793669853177, guid: d589c17f6fd91da4190edfdd2cb5aa53,
+        type: 3}
+      propertyPath: ashPrefab
+      value: 
+      objectReference: {fileID: 1491192899}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d589c17f6fd91da4190edfdd2cb5aa53, type: 3}
 --- !u!4 &1491192897 stripped
@@ -11270,6 +11295,24 @@ SortingGroup:
     type: 3}
   m_PrefabInstance: {fileID: 1491192896}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1491192899 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6733076708105069041, guid: d589c17f6fd91da4190edfdd2cb5aa53,
+    type: 3}
+  m_PrefabInstance: {fileID: 1491192896}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1491192900 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6601480061218639507, guid: d589c17f6fd91da4190edfdd2cb5aa53,
+    type: 3}
+  m_PrefabInstance: {fileID: 1491192896}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491192899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99794c150ee14b21a829d6ed54d27a60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1514590115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12874,6 +12917,11 @@ PrefabInstance:
       propertyPath: sceneId
       value: 2726739785
       objectReference: {fileID: 0}
+    - target: {fileID: 5792459935835653375, guid: 176e0188c0d52184ca00dcaf9607abca,
+        type: 3}
+      propertyPath: ItemAttributesV2
+      value: 
+      objectReference: {fileID: 1841906783}
     - target: {fileID: 5792568091267991121, guid: 176e0188c0d52184ca00dcaf9607abca,
         type: 3}
       propertyPath: snapToGridOnStart
@@ -12953,6 +13001,18 @@ SortingGroup:
     type: 3}
   m_PrefabInstance: {fileID: 1841906780}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1841906783 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6276716099710993635, guid: 176e0188c0d52184ca00dcaf9607abca,
+    type: 3}
+  m_PrefabInstance: {fileID: 1841906780}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99794c150ee14b21a829d6ed54d27a60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1860887810
 PrefabInstance:
   m_ObjectHideFlags: 0
