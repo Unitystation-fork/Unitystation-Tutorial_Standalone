@@ -5708,32 +5708,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1969965619319501349, guid: 868598a9acc5f40b0811af946a2c4c27,
-        type: 3}
-      propertyPath: CurrentsortingGroup
-      value: 
-      objectReference: {fileID: 621387515}
     - target: {fileID: 1970008000386313741, guid: 868598a9acc5f40b0811af946a2c4c27,
         type: 3}
       propertyPath: sceneId
       value: 1217618140
-      objectReference: {fileID: 0}
-    - target: {fileID: 1970119289326452329, guid: 868598a9acc5f40b0811af946a2c4c27,
-        type: 3}
-      propertyPath: snapToGridOnStart
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 868598a9acc5f40b0811af946a2c4c27, type: 3}
 --- !u!4 &621387514 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1932440539826646733, guid: 868598a9acc5f40b0811af946a2c4c27,
-    type: 3}
-  m_PrefabInstance: {fileID: 621387513}
-  m_PrefabAsset: {fileID: 0}
---- !u!210 &621387515 stripped
-SortingGroup:
-  m_CorrespondingSourceObject: {fileID: 5653873863691310583, guid: 868598a9acc5f40b0811af946a2c4c27,
     type: 3}
   m_PrefabInstance: {fileID: 621387513}
   m_PrefabAsset: {fileID: 0}
@@ -6824,6 +6808,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2850638485302797631}
     m_Modifications:
+    - target: {fileID: 4243232050535511984, guid: aa1e5a44ff182415dac90bed74ef8bfa,
+        type: 3}
+      propertyPath: randomInitialClothData
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7101127380728846657, guid: aa1e5a44ff182415dac90bed74ef8bfa,
         type: 3}
       propertyPath: m_RootOrder
@@ -6913,6 +6902,28 @@ SortingGroup:
     type: 3}
   m_PrefabInstance: {fileID: 835601530}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &835601533 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7106618204054676533, guid: aa1e5a44ff182415dac90bed74ef8bfa,
+    type: 3}
+  m_PrefabInstance: {fileID: 835601530}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &835601534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835601533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9ffa270baac4723983d4ed66622180e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shadow: {fileID: 0}
+  draggerMustBeAdjacent: 1
+  allowDragWhileSoftCrit: 1
+  allowedToMouseDrag: 1
 --- !u!1001 &864463383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7328,15 +7339,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6368337973022956635, guid: cf31a682867c234409b80f763fc9a1b9,
+    - target: {fileID: 5440150874991996387, guid: cf31a682867c234409b80f763fc9a1b9,
         type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.119
-      objectReference: {fileID: 0}
-    - target: {fileID: 6368337973022956635, guid: cf31a682867c234409b80f763fc9a1b9,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.009
+      propertyPath: shapedPackage
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6368519368898966227, guid: cf31a682867c234409b80f763fc9a1b9,
         type: 3}
@@ -7405,6 +7411,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf31a682867c234409b80f763fc9a1b9, type: 3}
+--- !u!1 &955132465 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6373161644663410599, guid: cf31a682867c234409b80f763fc9a1b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 955132464}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &955132466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955132465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9ffa270baac4723983d4ed66622180e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shadow: {fileID: 0}
+  draggerMustBeAdjacent: 1
+  allowDragWhileSoftCrit: 1
+  allowedToMouseDrag: 1
 --- !u!1001 &957301872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9049,6 +9077,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8775849567725995880, guid: 5a4f48d58142749de92013eb1e1d0523,
+        type: 3}
+      propertyPath: canClickPickup
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a4f48d58142749de92013eb1e1d0523, type: 3}
