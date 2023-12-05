@@ -219,7 +219,6 @@ namespace Items
 			return traits;
 		}
 
-
 		/// <summary>
 		/// Does it have the given trait?
 		/// NOTE: Dynamically added / removed traits are not synced between client / server
@@ -267,8 +266,6 @@ namespace Items
 			traits.Add(toAdd);
 		}
 
-
-
 		/// <summary>
 		/// Removes the trait dynamically.
 		/// NOTE: Not synced between client / server
@@ -304,7 +301,6 @@ namespace Items
 			ClothingV2 clothing = GetComponent<ClothingV2>();
 			if (clothing != null) clothing.AssignPaletteToSprites(this.ItemSprites.Palette);
 		}
-
 
 	}
 
