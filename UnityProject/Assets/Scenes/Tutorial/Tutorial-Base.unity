@@ -5721,6 +5721,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 621387513}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &621387515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1928361214078489529, guid: 868598a9acc5f40b0811af946a2c4c27,
+    type: 3}
+  m_PrefabInstance: {fileID: 621387513}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &621387516
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621387515}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.017800331, y: -0.047470093}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6954136, y: 0.6281738}
+  m_EdgeRadius: 0
 --- !u!1001 &627697190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6924,6 +6956,32 @@ MonoBehaviour:
   draggerMustBeAdjacent: 1
   allowDragWhileSoftCrit: 1
   allowedToMouseDrag: 1
+--- !u!61 &835601535
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835601533}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0059461594, y: 0.019325256}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.64323235, y: 0.247818}
+  m_EdgeRadius: 0
 --- !u!1001 &864463383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7433,6 +7491,32 @@ MonoBehaviour:
   draggerMustBeAdjacent: 1
   allowDragWhileSoftCrit: 1
   allowedToMouseDrag: 1
+--- !u!61 &955132467
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955132465}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.114463806, y: -0.004463196}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8305359, y: 0.4499817}
+  m_EdgeRadius: 0
 --- !u!1001 &957301872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9097,6 +9181,38 @@ SortingGroup:
     type: 3}
   m_PrefabInstance: {fileID: 1170013923}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1170013926 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3011710637427380133, guid: 5a4f48d58142749de92013eb1e1d0523,
+    type: 3}
+  m_PrefabInstance: {fileID: 1170013923}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1170013927
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170013926}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.017577171, y: 0.029121399}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.44924355, y: 0.48405457}
+  m_EdgeRadius: 0
 --- !u!1001 &1179642354
 PrefabInstance:
   m_ObjectHideFlags: 0
