@@ -563,6 +563,7 @@ GameObject:
   - component: {fileID: 6228789734722474502}
   - component: {fileID: 2346482150140180270}
   - component: {fileID: 2596346248451968090}
+  - component: {fileID: 8440795166247377225}
   m_Layer: 12
   m_Name: TutoBot
   m_TagString: Untagged
@@ -990,6 +991,26 @@ MonoBehaviour:
   IgnoreServerUpdatesIfLocalPlayer: 0
   IsAtmosphericDevice: 0
   doNotResetOtherSpriteOptions: 0
+--- !u!114 &8440795166247377225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5456015051303039048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 014af8d0909893649a06570e7a455c71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 5456015051303039050}
+  fontDefault: {fileID: 11400000, guid: 211daea8d9a1f484db6be9d5fbc00de5, type: 2}
+  fontClown: {fileID: 11400000, guid: daf1ee826722b634d9d700cc29877e9a, type: 2}
+  bubbleText: {fileID: 7764822509849961739}
+  maxMessageLength: 70
+  chatBubble: {fileID: 5456015051303039048}
+  bubbleSizeCaps: 1.2
+  bubbleSizeWhisper: 0.5
 --- !u!1 &5504883595330587129
 GameObject:
   m_ObjectHideFlags: 0
