@@ -19,7 +19,10 @@ public class GUI_Tutorial : MonoBehaviour
 	private readonly string[] languageFileNames = new string[]
 	{
 		"Lang_Bot_English.xml",
-		"Lang_Bot_French.xml"
+		"Lang_Bot_French.xml",
+		"Lang_Bot_Deutsch.xml",
+		"Lang_Bot_Russian"
+
 	};
 	private string[] languageFilePaths;
 	private string languageFolderPath;
