@@ -6840,11 +6840,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2850638485302797631}
     m_Modifications:
-    - target: {fileID: 4243232050535511984, guid: aa1e5a44ff182415dac90bed74ef8bfa,
-        type: 3}
-      propertyPath: randomInitialClothData
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7101127380728846657, guid: aa1e5a44ff182415dac90bed74ef8bfa,
         type: 3}
       propertyPath: m_RootOrder
@@ -6905,16 +6900,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlackShoes (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 7136631846002510309, guid: aa1e5a44ff182415dac90bed74ef8bfa,
-        type: 3}
-      propertyPath: snapToGridOnStart
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7136961445447566761, guid: aa1e5a44ff182415dac90bed74ef8bfa,
-        type: 3}
-      propertyPath: CurrentsortingGroup
-      value: 
-      objectReference: {fileID: 835601532}
     - target: {fileID: 7137064127981083009, guid: aa1e5a44ff182415dac90bed74ef8bfa,
         type: 3}
       propertyPath: sceneId
@@ -6928,60 +6913,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 835601530}
   m_PrefabAsset: {fileID: 0}
---- !u!210 &835601532 stripped
-SortingGroup:
-  m_CorrespondingSourceObject: {fileID: 3903413092916486779, guid: aa1e5a44ff182415dac90bed74ef8bfa,
-    type: 3}
-  m_PrefabInstance: {fileID: 835601530}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &835601533 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7106618204054676533, guid: aa1e5a44ff182415dac90bed74ef8bfa,
-    type: 3}
-  m_PrefabInstance: {fileID: 835601530}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &835601534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 835601533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9ffa270baac4723983d4ed66622180e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shadow: {fileID: 0}
-  draggerMustBeAdjacent: 1
-  allowDragWhileSoftCrit: 1
-  allowedToMouseDrag: 1
---- !u!61 &835601535
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 835601533}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.0059461594, y: 0.019325256}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.64323235, y: 0.247818}
-  m_EdgeRadius: 0
 --- !u!1001 &864463383
 PrefabInstance:
   m_ObjectHideFlags: 0
