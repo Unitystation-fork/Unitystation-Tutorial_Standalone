@@ -564,6 +564,7 @@ GameObject:
   - component: {fileID: 2346482150140180270}
   - component: {fileID: 2596346248451968090}
   - component: {fileID: 8440795166247377225}
+  - component: {fileID: 3316016489708702847}
   m_Layer: 12
   m_Name: TutoBot
   m_TagString: Untagged
@@ -1011,6 +1012,22 @@ MonoBehaviour:
   chatBubble: {fileID: 5456015051303039048}
   bubbleSizeCaps: 1.2
   bubbleSizeWhisper: 0.5
+--- !u!114 &3316016489708702847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5456015051303039048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d11f494184c6f44089355ed212aba78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chatBubblePrefab: {fileID: 5456015051303039048}
+  ActionPrefab: {fileID: 4029935053017320762, guid: fa2c38c2ff89e42608306c454d9be58f,
+    type: 3}
+  initialPoolSize: 10
 --- !u!1 &5504883595330587129
 GameObject:
   m_ObjectHideFlags: 0
@@ -1262,7 +1279,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7165627103012690738}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: f27637a2fb8a241bc85a2396c2195495, type: 2}
   m_CullingMode: 0
