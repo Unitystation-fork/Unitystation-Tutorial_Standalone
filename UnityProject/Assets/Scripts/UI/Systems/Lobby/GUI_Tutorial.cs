@@ -21,7 +21,7 @@ public class GUI_Tutorial : MonoBehaviour
 		"Lang_Bot_English.xml",
 		"Lang_Bot_French.xml",
 		"Lang_Bot_Deutsch.xml",
-		"Lang_Bot_Russian"
+		"Lang_Bot_Russian.xml"
 
 	};
 	private string[] languageFilePaths;
