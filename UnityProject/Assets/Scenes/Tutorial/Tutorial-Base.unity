@@ -7396,7 +7396,7 @@ PrefabInstance:
     - target: {fileID: 6373161644663410599, guid: cf31a682867c234409b80f763fc9a1b9,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6477919160917602835, guid: cf31a682867c234409b80f763fc9a1b9,
         type: 3}
@@ -9492,6 +9492,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BrownGloves (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373161644663410599, guid: 42b3d8a9fa25f174093fcfc697cd7991,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6477919160917602835, guid: 42b3d8a9fa25f174093fcfc697cd7991,
         type: 3}
