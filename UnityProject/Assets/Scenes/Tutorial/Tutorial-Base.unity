@@ -41045,51 +41045,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4029935051863495844, guid: fa2c38c2ff89e42608306c454d9be58f,
         type: 3}
-<<<<<<< HEAD
       propertyPath: _commonSound
       value: 
       objectReference: {fileID: 11400000, guid: 6d520c263fd9c4094b96ab467ebfb066,
         type: 2}
     - target: {fileID: 4029935052535730689, guid: fa2c38c2ff89e42608306c454d9be58f,
         type: 3}
-=======
->>>>>>> ee8d691fec (Add in TutoManager TutoBot prefab By states)
       propertyPath: tutoBot
       value: 
       objectReference: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a,
         type: 3}
-<<<<<<< HEAD
-    - target: {fileID: 4029935052535730689, guid: fa2c38c2ff89e42608306c454d9be58f,
-        type: 3}
-      propertyPath: _commonSound
-      value: 
-      objectReference: {fileID: 11400000, guid: 6d520c263fd9c4094b96ab467ebfb066,
-        type: 2}
-    - target: {fileID: 4029935052559433052, guid: fa2c38c2ff89e42608306c454d9be58f,
-        type: 3}
-      propertyPath: _commonSound
-      value: 
-      objectReference: {fileID: 11400000, guid: 6d520c263fd9c4094b96ab467ebfb066,
-        type: 2}
-    - target: {fileID: 4029935052812360671, guid: fa2c38c2ff89e42608306c454d9be58f,
-        type: 3}
-      propertyPath: _commonSound
-      value: 
-      objectReference: {fileID: 11400000, guid: 6d520c263fd9c4094b96ab467ebfb066,
-        type: 2}
-    - target: {fileID: 4029935052848034575, guid: fa2c38c2ff89e42608306c454d9be58f,
-        type: 3}
-      propertyPath: _commonSound
-      value: 
-      objectReference: {fileID: 11400000, guid: 6d520c263fd9c4094b96ab467ebfb066,
-        type: 2}
-    - target: {fileID: 4029935052954996755, guid: fa2c38c2ff89e42608306c454d9be58f,
-        type: 3}
-      propertyPath: _commonSound
-      value: 
-      objectReference: {fileID: 11400000, guid: 6d520c263fd9c4094b96ab467ebfb066,
-        type: 2}
-=======
     - target: {fileID: 4029935052559433052, guid: fa2c38c2ff89e42608306c454d9be58f,
         type: 3}
       propertyPath: tutoBot
@@ -41114,7 +41079,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5456015051303039048, guid: ef518a6041b176e4181e91942b9bc24a,
         type: 3}
->>>>>>> ee8d691fec (Add in TutoManager TutoBot prefab By states)
     - target: {fileID: 4029935053017320762, guid: fa2c38c2ff89e42608306c454d9be58f,
         type: 3}
       propertyPath: m_Name
